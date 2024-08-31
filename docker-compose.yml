@@ -7,4 +7,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
-
+    volumes:
+      - ./html:/var/www/html
